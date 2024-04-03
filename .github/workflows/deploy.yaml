@@ -31,7 +31,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: fullstack-docker-app
           environment_name: Fullstack-docker-app-env
-          existing_bucket_name: elasticbeanstalk-ap-northeast-2-024706521556
+          existing_bucket_name: elasticbeanstalk-ap-northeast-2-590184021084
           region: ap-northeast-2
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
