@@ -6,6 +6,5 @@ const pool = mysql.createPool({
   password: process.env.MYSQL_ROOT_PASSWORD,
   database: process.env.MYSQL_DATABASE,
   port: process.env.MYSQL_PORT,
-  authPlugin: 'caching_sha2_password',
 })
 exports.pool = pool
